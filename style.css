@@ -1,0 +1,81 @@
+/* CSS Template */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+    background: -moz-repeating-radial-gradient();
+    width: auto;
+    text-align: center;
+}
+
+body, li {
+    font-family: 'Lora', serif;
+
+  
+}
+
+
+
+h1, h2 {
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color:black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+ 
+}
+
+
+nav li {
+    display: inline;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: rgba(136, 136, 136, 50%);
+    opacity: 65%;
+
+}
+
+.about {
+
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+footer {
+    position: relative;
+    height: 30rem;
+    padding: 7.8125rem 30% 0 30%;
+    background: url("JTB\ Sleeping.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: white;
+
+  }
+
+  footer:before { /* Overlay */
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
